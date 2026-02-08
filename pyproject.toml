@@ -6,8 +6,12 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "gitsource>=0.0.4",
+    "jupyter>=1.1.1",
     "markitdown[pdf]>=0.1.4",
-    "misearch>=0.0.0",
+    "minsearch>=0.0.8",
     "openai>=2.17.0",
     "requests>=2.32.5",
 ]
+
+[dependency-groups]
+dev = []
